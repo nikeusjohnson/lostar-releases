@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "packageName": "dev.openmate.tv.debug",
+  "versionCode": 42,
+  "versionName": "0.27.0",
+  "minSdk": 24,
+  "apkUrl": "https://github.com/nikeusjohnson/lostar-releases/releases/download/android-v0.27.0/LOSTAR-0.27.0-universal.apk",
+  "bytes": 76848492,
+  "sha256": "3011ccb74995fd938fb41161f55ee182bdd2807ece5c30eb7b8073533d05367d",
+  "certificateSha256": "e34466199b80ac6202b8322899cf6a6892d98f6a468b769dfe8212801b8986e7",
+  "notes": "Direct GitHub updates for Android and Android-based Fire TV devices.\n\n- Added App updates in Settings and on Home, with optional daily checks.\n- Added cancellable downloads, progress and storage checks.\n- Rejects corrupt APKs, unexpected download origins, wrong app identities,\n  mismatched signing certificates and older versions.\n- Uses the Android system installer for explicit installation confirmation.\n- Blocks opening installation while a recording is active or finalising.\n- Retains the existing package and signing identity for in-place upgrades.\n\nInstall this updater-enabled version manually once. Keep your existing LOSTAR\ninstallation in place. Finish or cancel the system installer before scheduled\nrecordings start. Device smoke-testing remains necessary; host tests cannot\nprove compatibility with every Samsung/Fire OS version or stream provider.\n"
+}
