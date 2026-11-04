@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "packageName": "dev.openmate.tv.debug",
-  "versionCode": 42,
-  "versionName": "0.27.0",
+  "versionCode": 45,
+  "versionName": "0.27.3",
   "minSdk": 24,
-  "apkUrl": "https://github.com/nikeusjohnson/lostar-releases/releases/download/android-v0.27.0/LOSTAR-0.27.0-universal.apk",
-  "bytes": 76848492,
-  "sha256": "3011ccb74995fd938fb41161f55ee182bdd2807ece5c30eb7b8073533d05367d",
+  "apkUrl": "https://github.com/nikeusjohnson/lostar-releases/releases/download/android-v0.27.3/LOSTAR-0.27.3-universal.apk",
+  "bytes": 76865384,
+  "sha256": "f542cae0a3c66951c2660e8f837bea0ac782cb86c770842912c2c080af142b96",
   "certificateSha256": "e34466199b80ac6202b8322899cf6a6892d98f6a468b769dfe8212801b8986e7",
-  "notes": "Direct GitHub updates for Android and Android-based Fire TV devices.\n\n- Added App updates in Settings and on Home, with optional daily checks.\n- Added cancellable downloads, progress and storage checks.\n- Rejects corrupt APKs, unexpected download origins, wrong app identities,\n  mismatched signing certificates and older versions.\n- Uses the Android system installer for explicit installation confirmation.\n- Blocks opening installation while a recording is active or finalising.\n- Retains the existing package and signing identity for in-place upgrades.\n\nInstall this updater-enabled version manually once. Keep your existing LOSTAR\ninstallation in place. Finish or cancel the system installer before scheduled\nrecordings start. Device smoke-testing remains necessary; host tests cannot\nprove compatibility with every Samsung/Fire OS version or stream provider.\n"
+  "notes": "Optional background update alerts for the direct Android / Android-based Fire TV edition.\n\n- Enable Background update notifications in Settings > About & support > App updates.\n- Checks about every six hours while connected and battery is not low; Android may defer them.\n- Alerts appear once per compatible newer version and open the update screen.\n- Notification permission is requested only when opting in. Manual checks remain available.\n- No automatic downloads or installation; existing APK verification and recording safeguards remain.\n- Includes the first-run lawful-use notice, free-app information and website/donation links.\n- Amazon edition remains store managed and excludes the direct updater.\n\nInstall over your existing direct-download installation; do not uninstall it.\nOlder updater-enabled versions can find this release through Check for updates.\nBackground alerts require this version (or newer) and explicit opt-in.\nThese are periodic local notifications, not instant server push messages.\nPhysical Samsung and Fire device testing remains necessary.\n"
 }
