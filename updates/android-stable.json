@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "packageName": "dev.openmate.tv.debug",
-  "versionCode": 45,
-  "versionName": "0.27.3",
+  "versionCode": 46,
+  "versionName": "0.27.4",
   "minSdk": 24,
-  "apkUrl": "https://github.com/nikeusjohnson/lostar-releases/releases/download/android-v0.27.3/LOSTAR-0.27.3-universal.apk",
-  "bytes": 76865384,
-  "sha256": "f542cae0a3c66951c2660e8f837bea0ac782cb86c770842912c2c080af142b96",
+  "apkUrl": "https://github.com/nikeusjohnson/lostar-releases/releases/download/android-v0.27.4/LOSTAR-0.27.4-universal.apk",
+  "bytes": 77981412,
+  "sha256": "b394ee8b0acb6cfaa4016c6c9141fc9c6de68446b3773d74e0af49a084487ce2",
   "certificateSha256": "e34466199b80ac6202b8322899cf6a6892d98f6a468b769dfe8212801b8986e7",
-  "notes": "Optional background update alerts for the direct Android / Android-based Fire TV edition.\n\n- Enable Background update notifications in Settings > About & support > App updates.\n- Checks about every six hours while connected and battery is not low; Android may defer them.\n- Alerts appear once per compatible newer version and open the update screen.\n- Notification permission is requested only when opting in. Manual checks remain available.\n- No automatic downloads or installation; existing APK verification and recording safeguards remain.\n- Includes the first-run lawful-use notice, free-app information and website/donation links.\n- Amazon edition remains store managed and excludes the direct updater.\n\nInstall over your existing direct-download installation; do not uninstall it.\nOlder updater-enabled versions can find this release through Check for updates.\nBackground alerts require this version (or newer) and explicit opt-in.\nThese are periodic local notifications, not instant server push messages.\nPhysical Samsung and Fire device testing remains necessary.\n"
+  "notes": "LOSTAR 0.27.4 adds a clear Home update prompt with Review update, Later and Skip this version. Automatic checks run at most hourly while Home is visible; the optional six-hour background check remains available. Updates never install automatically or interrupt active playback.\n\nCompact-phone Home headers keep the LOSTAR name readable, and updater spacing now follows screen density. Update and notification settings remain scrollable on smaller displays.\n\nPrepared opt-in Firebase (Google Android) and Amazon Device Messaging (Fire OS) integrations, with a safe release sender and account setup guide. IMPORTANT: this release has no Firebase/Amazon push project configured. Instant closed-app alerts are not active yet; the app clearly shows that status. Existing manual and periodic update checks still work. A future configured build and physical-device delivery tests are required before enabling push.\n\nAmazon remains a separate Appstore-managed edition, with no APK downloader or Google messaging SDK. No streaming content or provider credentials are included. Install over your existing direct app to keep playlists and settings; do not uninstall first.\n"
 }
